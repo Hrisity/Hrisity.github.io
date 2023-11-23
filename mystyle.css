@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 0; 
+    padding: 20px 0; 
+    background-image: url('https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+}
+
+p.footnote {
+    color: #fff;
+    font-size: 14px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.menu {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.portfolio-button-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.portfolio-button-container img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.portfolio-button-content {
+    flex: 1;
+}
+
+.portfolio-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-button:hover {
+    background-color: #0056b3;
+}

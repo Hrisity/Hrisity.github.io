@@ -1,0 +1,200 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 0; 
+    padding: 20px 0; 
+    background-image: url('https://img.freepik.com/free-vector/virtual-assistant-technology-vector-irregular-circle-shape-white_53876-112216.jpg?w=1380&t=st=1700738076~exp=1700738676~hmac=48096e26b021b7a3bbaf1c2a994daeb995e0f65cf8c997a945102e64521f29cb'); /* My background image URL here */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.header-container {
+    /* Styles for .header-container if needed */
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+}
+
+p.footnote {
+    color: #fff;
+    font-size: 14px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.menu {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.portfolio-button-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #fff;
+    border: none; /* Removed the solid border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 10px; /* Increased border-radius for a softer look */
+    padding: 15px; /* Adjusted padding */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover */
+}
+
+.portfolio-button-container img {
+    width: 120px; /* Slightly increased image size */
+    height: 120px;
+    margin-right: 25px; /* Increased margin for spacing */
+    border-radius: 50%; /* Circular images */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+}
+
+.portfolio-button-content {
+    flex: 1;
+    text-align: left; /* Align text to the left for a standard look */
+}
+
+.portfolio-button {
+    background-color: #9b38fd;
+    color: #fff;
+    border: none;
+    padding: 12px 25px; /* Increased padding for a larger button */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.portfolio-button:hover {
+    background-color: #561b78;
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start for a clean look */
+}
+
+.portfolio-button-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: translateY(-5px); /* Lift card on hover */
+}
+
+/* Typography Improvements */
+nav h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.portfolio-button-container h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #4a4a4a; /* Darker color for titles */
+}
+
+.portfolio-button-container p {
+    font-size: 1rem;
+    color: #6a6a6a; /* Softer color for descriptions */
+}
+
+/* Layout Adjustments */
+.portfolio-button-container {
+    margin: 10px 0; /* Reduced vertical margin */
+    padding: 20px; /* Increased internal padding */
+}
+
+/* Color Scheme Tweaks */
+.portfolio-button {
+    background-color: #6302C5; /* Adjusted button color */
+}
+
+/* Hover Effects */
+.portfolio-button-container img:hover {
+    opacity: 0.8; /* Slightly dim image on hover */
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-button:hover {
+    background-color: #483b96; /* Darken button on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .portfolio-button-container {
+        flex-direction: column; /* Stack elements on smaller screens */
+        align-items: center;
+    }
+
+    .portfolio-button-container img {
+        margin-bottom: 15px; /* Spacing between image and text on small screens */
+    }
+
+    .portfolio-button-content {
+        text-align: center; /* Center align content on small screens */
+    }
+}
+
+/* Additional Interactive Elements */
+.portfolio-button-container:focus-within {
+    box-shadow: 0 0 0 2px #9b38fd; /* Focus outline for accessibility */
+}

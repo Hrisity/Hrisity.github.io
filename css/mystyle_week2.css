@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Consistent Heading Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    /* Unified color for all headings */
+    font-weight: normal;
+    /* Consistent font weight */
+}
+
+h1 {
+    font-size: 36px;
+    /* Larger for primary headers */
+}
+
+h2 {
+    font-size: 30px;
+    /* Slightly smaller than h1 */
+}
+
+h3 {
+    font-size: 26px;
+    /* Slightly smaller than h2 */
+}
+
+h4 {
+    font-size: 22px;
+    /* Slightly smaller than h3 */
+}
+
+h5 {
+    font-size: 20px;
+    /* Slightly smaller than h4 */
+}
+
+h6 {
+    font-size: 18px;
+    /* Smallest heading */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Menu styles */
+.menu {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* Task section styles */
+#week2il,
+#week2lab {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Responsive image styling */
+.container img {
+    max-width: 100%; /* Ensures images are not wider than their container */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes any default inline spacing */
+    margin: 0 auto; /* Centers the image in its container */
+    border-radius: 5px; /* Optional: adds rounded corners to the images */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow for depth */
+}

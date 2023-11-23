@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Lip Balm Product Section</title>
+<style>
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .product h2 {
+    color: #333;
+    font-size: 1rem; /* Responsive font size */
+  }
+
+  .product p {
+    color: #666;
+    font-size: 0.875rem; /* Responsive font size */
+  }
+
+  .product .buy-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  /* Laptop and desktop screens */
+  @media (min-width: 1024px) {
+    .product {
+      flex: 0 0 calc(33.333% - 20px); /* Subtract margin */
+    }
+  }
+
+  /* Tablet screens */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .product {
+      flex: 0 0 calc(50% - 20px); /* 2 items per row */
+    }
+  }
+
+  /* Phone screens */
+  @media (max-width: 767px) {
+    .product {
+      flex: 0 0 calc(100% - 20px); /* 1 item per row */
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="product-container">
+  <!-- Product 1 -->
+  <div class="product">
+    <img src="path-to-your-lip-balm-image-1.jpg" alt="Lip Balm 1">
+    <h2>Sugar peach hydrating Lip Balm & Lip Care</h2>
+    <p>A cushiony, peach-flavored lip balm that delivers nonstop 24-hour moisture and a smooth natural shine.</p>
+    <a href="link-to-buy-product-1" class="buy-button">Buy Now</a>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product">
+    <img src="path-to-your-lip-balm-image-2.jpg" alt="Lip Balm 2">
+    <h2>Berry smooth Lip Balm</h2>
+    <p>An enriching berry blend that keeps lips hydrated all day with a natural sheen.</p>
+    <a href="link-to-buy-product-2" class="buy-button">Buy Now</a>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product">
+    <img src="path-to-your-lip-balm-image-3.jpg" alt="Lip Balm 3">
+    <h2>Minty fresh Lip Balm</h2>
+    <p>Refreshing mint that invigorates the senses and offers long-lasting moisture.</p>
+    <a href="link-to-buy-product-3" class="buy-button">Buy Now</a>
+  </div>
+</div>
+
+</body>
+</html>
