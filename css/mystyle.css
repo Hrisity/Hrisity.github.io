@@ -16,7 +16,7 @@ header {
     text-align: center;
     margin: 0; 
     padding: 20px 0; 
-    background-image: url('https://img.freepik.com/free-vector/virtual-assistant-technology-vector-irregular-circle-shape-white_53876-112216.jpg?w=1380&t=st=1700738076~exp=1700738676~hmac=48096e26b021b7a3bbaf1c2a994daeb995e0f65cf8c997a945102e64521f29cb'); /* My background image URL here */
+    background-image: url('https://cdn.midjourney.com/581dc418-7c32-4dbf-adbc-fe6bcabb077e/0_3.webp'); /* My background image URL here */
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -34,12 +34,12 @@ header {
 
 h1 {
     font-size: 36px;
-    color: #333;
+    color: rgb(28, 28, 28);
 }
 
 h2 {
     font-size: 24px;
-    color: #666;
+    color: #333;
 }
 
 p {
